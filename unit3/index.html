@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dynamic Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Dynamic Gallery</h1>
+    <hr>
+  </header>
+  <main>
+    <h2>Planets</h2>
+    <picture>
+      <source media="(min-width: 769px)" srcset="images/Jupiter.jpg" width="200" height="200">
+      <source media="(min-width: 426px)" srcset="images/Neptune.jpg" width="200" height="200">
+      <source media="(min-width: 321px)" srcset="images/mars.png" width="200" height="200">
+      <img src="images/Mercury.jpg" width="200" height="200">
+    </picture>
+    <hr>
+    <h2>Rocks</h2>
+    <picture>
+      <source media="(min-width: 769px)" srcset="images/bigrock.jpg" width="200" height="200">
+      <source media="(min-width: 426px)" srcset="images/boulder.jpg" width="200" height="200">
+      <source media="(min-width: 321px)" srcset="images/rock.jpg" width="200" height="200">
+      <img src="images/pebble.jpg" width="200" height="200">
+    </picture>
+    <hr>
+    <h2>Graphics Cards</h2>
+    <picture>
+      <source media="(min-width: 769px)" srcset="images/A100.jpg" width="200" height="200">
+      <source media="(min-width: 426px)" srcset="images/4090.jpg" width="200" height="200">
+      <source media="(min-width: 321px)" srcset="images/750.jpg" width="200" height="200">
+      <img src="images/quadro2000.jpg" width="200" height="200">
+    </picture>
+    <hr>
+  </main>
+  <footer>
+    &copy; <i>2023 Brandon Nichols</i>
+  </footer>
+</body>
+
+</html>
