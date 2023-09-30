@@ -1,0 +1,84 @@
+body {
+  background-color: lightcyan;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: lightsteelblue;
+  box-shadow: 3px 3px;
+}
+
+div {
+  width: 90%;
+  margin: auto;
+}
+
+.itembox {
+  border-style: dashed;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+  background: lightskyblue;
+  color: dimgray;
+  padding: 10px 20px 20px 20px;
+}
+
+.favorite {
+  border-style: solid;
+  border-radius: 15px;
+  box-shadow: 3px 3px;
+  background: maroon;
+  color: white;
+  padding: 10px 20px 20px 20px;
+}
+
+ol {
+  background-color: mediumturquoise;
+  list-style-type: lower-greek;
+  padding: 25px;
+}
+
+ul {
+  background-color: paleturquoise;
+  list-style-type: upper-roman;
+  padding: 40px;
+}
+
+
+
+
+.horizontal-menu {
+  border-radius: 25px;
+  background-color: #3F3F3F;
+  list-style: none;
+  padding: 14px 16px;
+  margin: 10px;
+  display: flex;
+}
+
+.horizontal-menu li {
+  margin-right: 20px;
+}
+
+
+.horizontal-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+
+.horizontal-menu a:hover {
+  color: greenyellow;
+  padding: 20px;
+}
+
+#topColor {
+  color: white;
+}
