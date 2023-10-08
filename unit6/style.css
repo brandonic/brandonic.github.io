@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.imgHeight {
+  height: 300px;
+}
+
+main {
+  background-color: #001f3f;
+  color: #f0f0f0;
+}
+
+body {
+  background-image: url(https://media2.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.gif?cid=6c09b952nndfeo9v32ka9br3h9j8vgc0ul9zi9ldb6s1fuwb&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+  background-size: cover;
+}
+
+#wrapper {
+  width: 60%;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.marker {
+  list-style-image: url(https://static.coinpaprika.com/storage/cdn/currency_images/11072783.png);
+}
+
+.specialborder {
+  padding: 5px;
+  border-image-slice:
+    13 13 13 13;
+  border-image-width:
+    13px 13px 13px 13px;
+  border-image-outset:
+    13px 13px 13px 13px;
+  border-image-repeat:
+    repeat repeat;
+  border-image-source:
+    url("");
+  border-style:
+    solid;
+
+}
