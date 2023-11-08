@@ -1,0 +1,17 @@
+#nav, #sidebar, #footer {
+  display: none;
+}
+
+img {
+  display: none;
+}
+
+body {
+  font-size: 1.25em;
+}
+
+@media print {
+  a::after{
+    content: " (" attr(href) ") ";
+  }
+}
