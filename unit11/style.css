@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+legend {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+fieldset {
+  width: 50%;
+  border-radius: 12px;
+}
+
+footer {
+  position: fixed;
+  left: -5;
+  bottom: 0;
+  width: 100%;
+}
