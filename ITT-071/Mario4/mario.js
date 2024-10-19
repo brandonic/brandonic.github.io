@@ -48,7 +48,7 @@ formElem.onsubmit = function(event) {
     // if the height is absurdly tall, yell at them and exit early
     var tooTall = 100;
     if (height > tooTall) {
-        displayError("Are you cray? I can't build a pyramid that tall!");
+        displayError("Are you crazy? I can't build a pyramid that tall!");
         return;
     }
 
