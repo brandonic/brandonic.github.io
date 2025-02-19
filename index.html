@@ -5,39 +5,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Project Hub</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-  <h1>Brandon Nichols</h1>
-  <ul><li><h2>Intro to Web Technology</h2></li></ul>
-  <ol>
-    <li><a href="/unit1/index.html">Unit 1 Project</a></li>
-    <li><a href="/unit2/index.html">Unit 2 Project</a></li>
-    <li><a href="/unit3/index.html">Unit 3 Project</a></li>
-    <li><a href="/unit4/index.html">Unti 4 Project</a></li>
-    <li><a href="/unit5/index.html">Unit 5 Project</a></li>
-    <li><a href="/unit6/index.html">Unit 6 Project</a></li>
-    <li><a href="/unit7/index.html">Unit 7 Project</a></li>
-    <li><a href="/unit8/index.html">Unit 8 Project</a></li>
-    <li>Unit 9</li>
-      <ol type="a">
-        <li><a href='/unit9/index.html'>Unit 9 Project I</a></li>
-        <li><a href='/unit9/part2/index.html'>Unit 9 Project I Part II</a></li>
-        <li><a href='/unit9/Project 2/index.html'>Unit 9 Project II</a></li>
-      </ol>
-    <li><a href='/unit10/index.html'>Unit 10 Project</a></li>
-    <li><a href='/unit11/index.html'>Unit 11 Project</a></li>
-  </ol>
-  <br>
-  <ul><li><h2>Web Scripting</h2></li></ul>
-  <ol>
-    <li><a href="./ITT-071/Mario1/index.html">Mario 1</a></li>
-    <li><a href="./ITT-071/Mario2/index.html">Mario 2</a></li>
-    <li><a href="./ITT-071/Mario3/index.html">Mario 3</a></li>
-    <ul><li><a href="./ITT-071/Mario Slide/index.html">Mario Slide</a></ul>
-    <li><a href="./ITT-071/Mario4/index.html">Mario 4</a></li>
-  </ol>
+  <header>Brandon Nichols</header>
+  <div class="container">
+      <div class="category">Intro to Web Technology</div>
+      <div class="card"><a href="/unit1/index.html">Unit 1 Project</a></div>
+      <div class="card"><a href="/unit2/index.html">Unit 2 Project</a></div>
+      <div class="card"><a href="/unit3/index.html">Unit 3 Project</a></div>
+      <div class="card"><a href="/unit4/index.html">Unit 4 Project</a></div>
+      <div class="card"><a href="/unit5/index.html">Unit 5 Project</a></div>
+      <div class="card"><a href="/unit6/index.html">Unit 6 Project</a></div>
+      <div class="card"><a href="/unit7/index.html">Unit 7 Project</a></div>
+      <div class="card"><a href="/unit8/index.html">Unit 8 Project</a></div>
+      <div class="dropdown" id="unit9__Dropdown" onclick="toggleDropdown()">Unit 9 Projects
+          <div class="dropdown-content">
+              <div class="card" id="unit9-card"><a href="/unit9/index.html">Project I</a></div>
+              <div class="card"id="unit9-card"><a href="/unit9/part2/index.html">Project I Part II</a></div>
+              <div class="card" id="unit9-card"><a href="/unit9/Project 2/index.html">Project II</a></div>
+          </div>
+      </div>
+      <div class="card"><a href="/unit10/index.html">Unit 10 Project</a></div>
+      <div class="card"><a href="/unit11/index.html">Unit 11 Project</a></div>
+      <div class="category">Web Scripting</div>
+      <div class="card"><a href="./ITT-071/Mario1/index.html">Mario 1</a></div>
+      <div class="card"><a href="./ITT-071/Mario2/index.html">Mario 2</a></div>
+      <div class="card"><a href="./ITT-071/Mario3/index.html">Mario 3</a></div>
+      <div class="card"><a href="./ITT-071/Mario Slide/index.html">Mario Slide</a></div>
+      <div class="card"><a href="./ITT-071/Mario4/index.html">Mario 4</a></div>
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>

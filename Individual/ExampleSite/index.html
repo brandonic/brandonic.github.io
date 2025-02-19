@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem ipsum</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/83c6724073.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="navbar__container">
+                <a href="" id="navbar-logo">Title</a>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__links">Services</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="" class="navbar__links">Pricing</a>
+                    </li>
+                    <li class="navbar__btn mobile">
+                        <a href="" class="button">Sign Up</a>
+                    </li>
+                </ul>
+
+                <div class="navbar__btn desktop">
+                    <a href="" class="button">Sign Up</a>
+                </div>
+
+                <button class="navbar__toggle" 
+                id="mobile-menu" 
+                aria-label="Toggle Navigation" aria-expanded=""
+                false
+                >
+
+                <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+     <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1>Lorem ipsum odor amet, consectetuer adipiscing elit.</h1>
+                    <p>Aiaculis ridiculus platea varius!</p>
+                    <button class="hero__btn">Sign Up</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why choose us section -->
+         <section class="why-choose-us">
+            <div class="container">
+                <h2>Why Choose Us?</h2>
+                <p class="intro-text">
+                    Nisi et est mattis id ridiculus dis. Urna id varius, rhoncus etiam mauris elementum laoreet.
+                <p class="intro-text">
+                    Mauris platea auctor quam platea ac viverra lobortis.
+                </p>
+                <p class="intro-text">
+                    Convallis blandit cursus dictum venenatis est.
+                </p>
+                </p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+                        <h3>Litora proin</h3>
+                        <p>Vulputate eget montes condimentum lacinia aliquet auctor blandit odio. Netus penatibus erat ad blandit rutrum; lobortis sagittis. Mauris platea auctor quam platea ac viverra lobortis.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-atom icon"></i>
+                        <h3>Viverra dictum</h3>
+                        <p>Dis metus per scelerisque euismod sociosqu natoque netus elit morbi. Massa maecenas pharetra cubilia tempus bibendum fames!</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+
+         <!-- Pricing Section -->
+
+         <section class="services">
+            <h2>Pricing</h2>
+
+            <!-- Pricing Toggle button -->
+
+            <div class="pricing-toggle">
+                <div class="toggle-container">
+                    <span class="toggle-option">Monthly</span>
+                    <label class="switch">
+                        <input type="checkbox" id="pricing-toggle-checkbox" onclick="switchPricing()">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="toggle-option">Yearly</span>
+                </div>
+                <div class="save-percentage-container">
+                    <span class="save-percentage">Save 20%</span>
+                </div>
+            </div>
+
+            <div class="services__container">
+                <!-- Basic Plan -->
+                 <div class="services__card">
+                    <div class="card-content">
+                        <h3 id="basic-tier">Basic</h3>
+                        <div class="card-price">
+                            <p class="monthly-price">$9.99/mo</p>
+                            <p class="price yearly-price hidden">$7.99/mo</p>
+                            <button class="price-btn">Get Started</button>
+                            <p id="small-desc">Ectus vehicula curae!</p>
+                        </div>
+
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Sem imperdiet eleifend.</li>
+                                <li>Tristique aliquam integer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                 </div>
+                <!-- Intermediate -->
+                 <div class="services__card">
+                    <div class="card-content">
+                        <h3 id="inter-tier">Intermediate</h3>
+                        <div class="card-price">
+                            <p class="monthly-price">$29.99/mo</p>
+                            <p class="price yearly-price hidden">$23.99/mo</p>
+                            <button class="price-btn">Get Started</button>
+                            <p id="small-desc">Sollicitudin amet hendrerit curabitur fusce.</p>
+                        </div>
+
+                        <div class="card-features">
+                            <p>Features:</p>
+                            <ul>
+                                <li>Gravida morbi blandit ligula himenaeos massa.</li>
+                                <li>Nisi orci neque sapien lacinia aenean dui elementum.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Advanced -->
+                    <div class="services__card">
+                        <div class="card-content">
+                            <h3 id="advanced-tier">Advanced</h3>
+                            <div class="card-price">
+                                <p class="monthly-price">$49.99/mo</p>
+                                <p class="price yearly-price hidden">$41.99/mo</p>
+                                <button class="price-btn">Get Started</button>
+                                <p id="small-desc">Ut iaculis euismod facilisi faucibus purus arcu donec.</p>
+                            </div>
+    
+                            <div class="card-features">
+                                <p>Features:</p>
+                                <ul>
+                                    <li>Pulvinar velit id lobortis conubia enim fames.</li>
+                                    <li>Mauris auctor aenean dis, commodo tellus viverra.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <!-- Expert -->
+
+                        <div class="services__card">
+                            <div class="card-content">
+                                <h3 id="expert-tier">Expert</h3>
+                                <div class="card-price">
+                                    <p class="monthly-price">$149.99/mo</p>
+                                    <p class="price yearly-price hidden">$137.99/mo</p>
+                                    <button class="price-btn">Get Started</button>
+                                    <p id="small-desc">Viverra lacus at habitant mollis, hendrerit in aliquet.</p>
+                                </div>
+        
+                                <div class="card-features">
+                                    <p>Features:</p>
+                                    <ul>
+                                        <li>Facilisi orci lacus etiam.</li>
+                                        <li>Laoreet mattis et purus pellentesque vulputate.</li>
+                                        <li>Maximus varius condimentum neque platea.</li>
+                                    </ul>
+                                </div>
+                            </div>
+            </div>
+         </section>
+
+
+         <!-- Footer Section -->
+         <footer>
+            <div class="footer__container">
+                <div class="footer__links">
+                    <div class="footer__link-wrapper">
+                        <div class="footer__link-items">
+                            <h2>About Us</h2>
+                            <a href="">facilisi maximus</a>
+                            <a href="">Imperdiet luctus</a>
+                            <a href="">Maximus leo fames</a>
+                        </div>
+
+                        <div class="footer__link-items">
+                            <h2>Contact Us</h2>
+                            <a href="">Viverra lacus</a>
+                            <a href="">Vestibulum</a>
+                        </div>
+                        </div>
+
+                        <div class="footer__link-wrapper">
+
+
+                        <div class="footer__link-items">
+                            <h2>Social Media</h2>
+                            <a href="" target="_blank" rel="noopener noreferrer">Felis</a>
+                        </div>
+                        </div>
+                    </div>
+                <section class="social__media">
+                    <div class="social__media-wrap">
+                        <div class="footer__logo">
+                            <a href="" id="footer-logo">Title</a>
+                            <p class="website__rights">
+                                &copy; Title
+                                <span id="year"></span> All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+         </footer>
+
+
+     </main>
+    <script src="app.js"></script>
+</body>
+</html>
